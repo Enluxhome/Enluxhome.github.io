@@ -1,7 +1,254 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Enluxhome</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/icon-deal.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="container-xxl bg-pale p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <!-- Titulo -->
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <div class="icon p-2 me-2">
+                        <img class="img-fluid" src="img/title.png" alt="Icon" style="height: 40px;">
+                    </div>
+                    <h1 class="m-0 text-primary"></h1>
+                </a>
+
+                <!-- Menu desplegable -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu colapsable -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+
+                        <!-- Menu -->
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="" class="nav-item nav-link">Nosotros</a>
+                        <a href="" class="nav-item nav-link">Contactanos</a>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-pale p-0">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+                <!-- Encabezado -->
+                <div class="col-md-6 p-5 mt-lg-5">
+                    <!-- Encabezado -->
+                    <h1 class="display-5 animated fadeIn mb-4">
+                        ¡Bienvenidos a <span class="text-primary">Bahía María</span>: Un Paraíso Natural y Cultural! 🌿
+                    </h1>
+
+                    <!-- parrafo -->
+                    <p class="animated fadeIn mb-4 pb-2">
+                        Sumérgete en la tranquilidad y la magia de Bahía María, un lugar único donde la naturaleza, la cultura y el descanso se entrelazan.
+                        Aquí encontrarás el refugio perfecto para tus vacaciones, rodeado de extensas áreas verdes y un entorno lleno de vida.
+                    </p>
+                </div>
+
+                <!-- Carrusel -->
+                <div class="col-md-6 animated fadeIn">
+                    <div class="owl-carousel header-carousel">
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Category Start -->
+        <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 80px 35px 40px 35px;">
+            <div class="container">
+                <div class="mx-auto mb-5 wow fadeInLeft" data-wow-delay="0.1s" style="max-width: 1000px;">
+                    <h1 class="text-white text-start mb-3">🌱 Un Santuario Natural</h1>
+                    <p class="text-white text-justify">
+                        Bahía María es más que un destino, es un compromiso con la preservación ambiental.
+                        Ubicado en una zona protegida, este lugar es hogar de los majestuosos manatíes, especies emblemáticas que aquí encuentran un refugio seguro.
+                        Durante tu estancia, podrás disfrutar de actividades responsables que te conectarán con la riqueza natural del área.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="mx-auto mb-5 wow fadeInRight" data-wow-delay="0.1s" style="max-width: 1000px;">
+                    <h1 class="text-black text-end mb-3">✨ La Magia de los Aluxes</h1>
+                    <p class="text-black text-justify">
+                        En Bahía María respetamos y honramos las tradiciones locales, donde los aluxes, pequeños guardianes de la naturaleza según la cultura maya,
+                        son parte esencial de nuestra identidad. Nuestros jardines y senderos están diseñados respetando su entorno, y las leyendas de estos seres mágicos inspiran cada rincón del lugar.
+                        Descubre la conexión entre lo místico y lo natural mientras paseas por nuestros espacios verdes.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 80px 35px 40px 35px;">
+            <div class="container">
+                <div class="mx-auto mb-5 wow fadeInLeft" data-wow-delay="0.1s" style="max-width: 1000px;">
+                    <h1 class="text-white text-start mb-3">🏡 Un Espacio para el Descanso</h1>
+                    <p class="text-white text-justify">
+                        Bahía María ofrece áreas de descanso cuidadosamente integradas con el entorno,
+                        ideales para relajarte y disfrutar del canto de las aves, el susurro del viento y el espectáculo de un cielo estrellado.
+                        Perfecto para familias, parejas o quienes buscan desconectar del bullicio de la ciudad.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="mx-auto mb-5 wow fadeInRight" data-wow-delay="0.1s" style="max-width: 1000px;">
+                    <h1 class="text-black text-end mb-3">🌍 Vive una Experiencia Responsable</h1>
+                    <p class="text-black text-justify">
+                        Creemos en un turismo que respeta el medio ambiente y las culturas locales. Al elegir Bahía María,
+                        te sumas a nuestros esfuerzos por proteger este paraíso para futuras generaciones, manteniendo viva la magia de los aluxes y la belleza de los manatíes.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Category End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <img class="img-fluid w-100" src="img/about.jpg">
+                    </div>
+
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="mb-4">Una experiencia inolvidable 🌊</h1>
+                        <p class="mb-4">
+                            En Bahía María, la magia de la naturaleza se une con lo mejor de la tecnología para hacer de tu visita una experiencia inolvidable.
+                            Nuestros asistentes virtuales están siempre listos para ayudarte, ya sea respondiendo a tus preguntas,
+                            guiándote en la planificación de actividades o resolviendo cualquier duda sobre tu estancia.
+                        </p>
+
+                        <a class="btn btn-primary py-3 px-5 mt-3" href="">Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <!-- Ponte en Contacto -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Ponte en Contacto</h5>
+
+                        <!-- Telefono -->
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>
+                            +52 983 100 3326
+                        </p>
+                        <!-- Correo -->
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i>
+                            enluxhome.gerencia@gmail.com
+                        </p>
+
+                        <!-- Redes Sociales -->
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="https://web.facebook.com/people/Enluxhome/61570379475928/">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="btn btn-outline-light btn-social" href="">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Acceso Rapido -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Acceso Rapido</h5>
+                        <a class="btn btn-link text-white-50" href="">Nosotros</a>
+                        <a class="btn btn-link text-white-50" href="">Contactanos</a>
+                    </div>
+
+                    <!-- Galeria -->
+                    <div class="col-lg-3 col-md-6"></div>
+
+                    <!-- Newsletter -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Suscribete</h5>
+                        <p>Suscribete para ser el primero en recibir las novedades.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="correo">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Suscribirse</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
