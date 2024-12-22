@@ -45,7 +45,7 @@
         <div class="container-fluid nav-bar bg-transparent">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
                 <!-- Titulo -->
-                <a href="en.html" class="navbar-brand d-flex align-items-center text-center">
+                <a href="../en.html" class="navbar-brand d-flex align-items-center text-center">
                     <div class="icon p-2 me-2">
                         <img class="img-fluid" src="../img/title.png" alt="Icon" style="height: 40px;">
                     </div>
@@ -57,16 +57,31 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <!-- Menu localización desplegable -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarLangCollapse">
+                    <span>🌎</span>
+                </button>
+
+                <!-- Menu localización colapsable -->
+                <div class="collapse navbar-collapse" id="navbarLangCollapse">
+                    <div class="navbar-nav ms-auto">
+
+                        <!-- Menu -->
+                        <a href="../es/interest.html" class="nav-item nav-link">Español</a>
+                        <a href="interest.html" class="nav-item nav-link active">English</a>
+                    </div>
+                </div>
+
                 <!-- Menu colapsable -->
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
 
                         <!-- Menu -->
                         <a href="../en.html" class="nav-item nav-link">Home</a>
-                        <a href="../about/en.html" class="nav-item nav-link">About Us</a>
-                        <a href="en.html" class="nav-item nav-link active">Points of Interest</a>
-                        <a href="../aluxes/en.html" class="nav-item nav-link">The Aluxes</a>
-                        <a href="../contact/en.html" class="nav-item nav-link">Contact Us</a>
+                        <a href="about.html" class="nav-item nav-link">About Us</a>
+                        <a href="interest.html" class="nav-item nav-link active">Points of Interest</a>
+                        <a href="aluxes.html" class="nav-item nav-link">The Aluxes</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
 
                     </div>
                 </div>
@@ -112,7 +127,7 @@
         </div>
 
         <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
             <div class="container py-5">
                 <div class="row g-5">
                     <!-- Ponte en Contacto -->
@@ -144,11 +159,18 @@
                     <!-- Acceso Rapido -->
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Quick Access</h5>
-                        <a class="btn btn-link text-white-50" href="">About Us</a>
-                        <a class="btn btn-link text-white-50" href="">Contact Us</a>
+                        <a class="btn btn-link text-white-50" href="../en.html">Home</a>
+                        <a class="btn btn-link text-white-50" href="about.html">About Us</a>
+                        <a class="btn btn-link text-white-50" href="aluxes.html">The Aluxes</a>
+                        <a class="btn btn-link text-white-50" href="contact.html">Contact Us</a>
                     </div>
 
-                    <div class="col-lg-3 col-md-6"></div>
+                    <!-- Idioma -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Language</h5>
+                        <a class="btn btn-link text-white-50" href="../es/interest.html">Español</a>
+                        <a class="btn btn-link text-white-50" href="interest.html">English</a>
+                    </div>
 
                     <!-- Newsletter -->
                     <div class="col-lg-3 col-md-6">
@@ -161,6 +183,7 @@
                     </div>
                 </div>
             </div>
+        </div>
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>

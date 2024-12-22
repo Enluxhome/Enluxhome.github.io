@@ -36,7 +36,7 @@
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Cargando...</span>
+                <span class="sr-only">Loading...</span>
             </div>
         </div>
         <!-- Spinner End -->
@@ -45,7 +45,7 @@
         <div class="container-fluid nav-bar bg-transparent">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
                 <!-- Titulo -->
-                <a href="es.html" class="navbar-brand d-flex align-items-center text-center">
+                <a href="../en.html" class="navbar-brand d-flex align-items-center text-center">
                     <div class="icon p-2 me-2">
                         <img class="img-fluid" src="../img/title.png" alt="Icon" style="height: 40px;">
                     </div>
@@ -57,16 +57,31 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <!-- Menu localización desplegable -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarLangCollapse">
+                    <span>🌎</span>
+                </button>
+
+                <!-- Menu localización colapsable -->
+                <div class="collapse navbar-collapse" id="navbarLangCollapse">
+                    <div class="navbar-nav ms-auto">
+
+                        <!-- Menu -->
+                        <a href="../es/contact.html" class="nav-item nav-link">Español</a>
+                        <a href="contact.html" class="nav-item nav-link active">English</a>
+                    </div>
+                </div>
+
                 <!-- Menu colapsable -->
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
 
                         <!-- Menu -->
-                        <a href="../es.html" class="nav-item nav-link">Inicio</a>
-                        <a href="es.html" class="nav-item nav-link active">Nosotros</a>
-                        <a href="../interest/es.html" class="nav-item nav-link">Puntos de Interes</a>
-                        <a href="../aluxes/es.html" class="nav-item nav-link">Los Aluxes</a>
-                        <a href="../contact/es.html" class="nav-item nav-link">Contactanos</a>
+                        <a href="../en.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About Us</a>
+                        <a href="interest.html" class="nav-item nav-link">Points of Interest</a>
+                        <a href="aluxes.html" class="nav-item nav-link">The Aluxes</a>
+                        <a href="contact.html" class="nav-item nav-link active">Contact Us</a>
 
                     </div>
                 </div>
@@ -74,25 +89,37 @@
         </div>
         <!-- Navbar End -->
 
-        <!-- Nosotros -->
-        <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 80px 35px 40px 35px;">
+        <!-- About Start -->
+        <div id="contactanos" class="container-xxl py-5">
             <div class="container">
-                <div class="mx-auto mb-5 wow fadeInLeft" data-wow-delay="0.1s" style="max-width: 1000px;">
-                    <h1 class="text-white text-start mb-3">Nosotros</h1>
-                    <p class="text-white text-justify">
-                        ...
-                    </p>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="mb-4">A Memory for Life 🌊</h1>
+                        <p class="mb-4">
+                            In Bahía María you will live moments that will remain forever in your memory.
+                            Imagine walking at sunset through paths surrounded by vibrant nature, listening to the gentle murmur of the water while the manatees swim nearby,
+                            or contemplating the immensity of the starry sky on a quiet night.
+                            Every corner of this paradise invites you to stop time and enjoy pure connection with nature and culture.
+                        </p>
+
+                        <a class="btn btn-primary py-3 px-5 mt-3" href="">Contact Us</a>
+                    </div>
+
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.6s">
+                        <img class="img-fluid w-100" src="../img/about.jpg">
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- About End -->
 
         <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
             <div class="container py-5">
                 <div class="row g-5">
                     <!-- Ponte en Contacto -->
                     <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Ponte en Contacto</h5>
+                        <h5 class="text-white mb-4">Get in Touch</h5>
 
                         <!-- Telefono -->
                         <p class="mb-2">
@@ -118,24 +145,32 @@
 
                     <!-- Acceso Rapido -->
                     <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Acceso Rapido</h5>
-                        <a class="btn btn-link text-white-50" href="">Nosotros</a>
-                        <a class="btn btn-link text-white-50" href="">Contáctanos</a>
+                        <h5 class="text-white mb-4">Quick Access</h5>
+                        <a class="btn btn-link text-white-50" href="../en.html">Home</a>
+                        <a class="btn btn-link text-white-50" href="about.html">About Us</a>
+                        <a class="btn btn-link text-white-50" href="interest.html">Points of Interest</a>
+                        <a class="btn btn-link text-white-50" href="aluxes.html">The Aluxes</a>
                     </div>
 
-                    <div class="col-lg-3 col-md-6"></div>
+                    <!-- Idioma -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Language</h5>
+                        <a class="btn btn-link text-white-50" href="../es/contact.html">Español</a>
+                        <a class="btn btn-link text-white-50" href="contact.html">English</a>
+                    </div>
 
                     <!-- Newsletter -->
                     <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Suscribete</h5>
-                        <p>Suscribete para ser el primero en recibir las novedades.</p>
+                        <h5 class="text-white mb-4">Subscribe</h5>
+                        <p>Subscribe to be the first to receive news.</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="correo">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Suscribirse</button>
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Subscribe</button>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>

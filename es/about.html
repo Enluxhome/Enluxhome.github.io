@@ -45,7 +45,7 @@
         <div class="container-fluid nav-bar bg-transparent">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
                 <!-- Titulo -->
-                <a href="es.html" class="navbar-brand d-flex align-items-center text-center">
+                <a href="../es.html" class="navbar-brand d-flex align-items-center text-center">
                     <div class="icon p-2 me-2">
                         <img class="img-fluid" src="../img/title.png" alt="Icon" style="height: 40px;">
                     </div>
@@ -57,16 +57,31 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <!-- Menu localización desplegable -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarLangCollapse">
+                    <span>🌎</span>
+                </button>
+
+                <!-- Menu localización colapsable -->
+                <div class="collapse navbar-collapse" id="navbarLangCollapse">
+                    <div class="navbar-nav ms-auto">
+
+                        <!-- Menu -->
+                        <a href="about.html" class="nav-item nav-link active">Español</a>
+                        <a href="../en/about.html" class="nav-item nav-link">English</a>
+                    </div>
+                </div>
+
                 <!-- Menu colapsable -->
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
 
                         <!-- Menu -->
                         <a href="../es.html" class="nav-item nav-link">Inicio</a>
-                        <a href="../about/es.html" class="nav-item nav-link">Nosotros</a>
-                        <a href="../interest/es.html" class="nav-item nav-link">Puntos de Interes</a>
-                        <a href="../aluxes/es.html" class="nav-item nav-link">Los Aluxes</a>
-                        <a href="es.html" class="nav-item nav-link active">Contactanos</a>
+                        <a href="about.html" class="nav-item nav-link active">Nosotros</a>
+                        <a href="interest.html" class="nav-item nav-link">Puntos de Interes</a>
+                        <a href="aluxes.html" class="nav-item nav-link">Los Aluxes</a>
+                        <a href="contact.html" class="nav-item nav-link">Contactanos</a>
 
                     </div>
                 </div>
@@ -74,31 +89,21 @@
         </div>
         <!-- Navbar End -->
 
-        <!-- Contactanos -->
-        <div class="container-xxl py-5">
+        <!-- About Start -->
+        <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 80px 35px 40px 35px;">
             <div class="container">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                        <h1 class="mb-4">Un Recuerdo para Toda la Vida 🌊</h1>
-                        <p class="mb-4">
-                            En Bahía María vivirás momentos que quedarán grabados para siempre en tu memoria.
-                            Imagina pasear al atardecer por senderos rodeados de naturaleza vibrante, escuchar el suave murmullo del agua mientras los manatíes nadan cerca,
-                            o contemplar la inmensidad del cielo estrellado en una noche tranquila.
-                            Cada rincón de este paraíso invita a detener el tiempo y disfrutar de la conexión pura con la naturaleza y la cultura.
-                        </p>
-
-                        <a class="btn btn-primary py-3 px-5 mt-3" href="">Contáctanos</a>
-                    </div>
-
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.6s">
-                        <img class="img-fluid w-100" src="../img/about.jpg">
-                    </div>
+                <div class="mx-auto mb-5 wow fadeInLeft" data-wow-delay="0.1s" style="max-width: 1000px;">
+                    <h1 class="text-white text-start mb-3">Nosotros</h1>
+                    <p class="text-white text-justify">
+                        ...
+                    </p>
                 </div>
             </div>
         </div>
+        <!-- About End -->
 
         <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
             <div class="container py-5">
                 <div class="row g-5">
                     <!-- Ponte en Contacto -->
@@ -130,11 +135,18 @@
                     <!-- Acceso Rapido -->
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Acceso Rapido</h5>
-                        <a class="btn btn-link text-white-50" href="">Nosotros</a>
-                        <a class="btn btn-link text-white-50" href="">Contáctanos</a>
+                        <a class="btn btn-link text-white-50" href="../es.html">Inicio</a>
+                        <a class="btn btn-link text-white-50" href="interest.html">Puntos de Interes</a>
+                        <a class="btn btn-link text-white-50" href="aluxes.html">Los Aluxes</a>
+                        <a class="btn btn-link text-white-50" href="contact.html">Contáctanos</a>
                     </div>
 
-                    <div class="col-lg-3 col-md-6"></div>
+                    <!-- Idioma -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Idioma</h5>
+                        <a class="btn btn-link text-white-50" href="about.html">Español</a>
+                        <a class="btn btn-link text-white-50" href="../en/about.html">English</a>
+                    </div>
 
                     <!-- Newsletter -->
                     <div class="col-lg-3 col-md-6">
@@ -147,6 +159,7 @@
                     </div>
                 </div>
             </div>
+        </div>
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
